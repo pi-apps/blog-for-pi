@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="apple-touch-icon" sizes="76x76" href="#">
+        <link rel="icon" type="image/png" href="#">
+        <title>Blog for Pi</title>
+        <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+        <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+        <link id="pagestyle" href="./assets/css/material-kit.css?v=3.0.4" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <div class="container z-index-sticky top-0">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-transparent top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+                        <div class="container-fluid px-0">
+                            <a class="navbar-brand  text-white font-weight-bolder ms-sm-3" href="#" rel="tooltip" title="Pi Blog" data-placement="bottom">
+                                Pi Blog
+                            </a>
+                            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon mt-2">
+                                    <span class="navbar-toggler-bar bar1"></span>
+                                    <span class="navbar-toggler-bar bar2"></span>
+                                    <span class="navbar-toggler-bar bar3"></span>
+                                </span>
+                            </button>
+                            <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
+                                <ul class="navbar-nav navbar-nav-hover ms-auto">
+                                    <li class="nav-item dropdown dropdown-hover mx-2  ms-lg-6">
+                                        <a class="nav-link ps-2 d-flex cursor-pointer text-gradient-dark align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6">
+                                        <a class="nav-link ps-2 d-flex cursor-pointer text-gradient-dark align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Account
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuBlocks">
+                                            <div class="d-none d-lg-block">
+                                                <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="#">
+                                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                                            <div>
+                                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Login</h6>
+                                                                <span class="text-sm">Sign in with your Pi wallet</span>
+                                                            </div>
+                                                            <img src="./assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown dropdown-hover mx-2  ms-lg-6">
+                                        <a class="nav-link ps-2 d-flex cursor-pointer align-items-center text-gradient-dark" id="dropdownMenuPages8" data-bs-toggle="dropdown" aria-expanded="false">
+                                            My Account
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages8">
+                                            <div class="d-none d-lg-block">
+                                                <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="#">
+                                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                                            <div>
+                                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Profile</h6>
+                                                                <span class="text-sm">Edit your profile</span>
+                                                            </div>
+                                                            <img src="./assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="#">
+                                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                                            <div>
+                                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Edit Profile</h6>
+                                                                <span class="text-sm">Click to edit your profile</span>
+                                                            </div>
+                                                            <img src="./assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="#">
+                                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                                            <div>
+                                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Pi Balance</h6>
+                                                                <span class="text-sm">View your Pi Blog wallet</span>
+                                                            </div>
+                                                            <img src="./assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar -->
+        <header class="bg-gradient-dark">
+            <div class="page-header min-vh-65" style="background-image: url('../assets/img/banner.png');">
+                <span class="mask bg-gradient-dark opacity-6"></span>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 text-center mx-auto my-auto">
+                            <h1 class="text-white text-decoration-underline"><span class="text-decoration-underline">Announce</span>ment</h1>
+                            <p class="lead mb-4 text-white opacity-8">Watch out for our top rated stories on this board</p>
+                            <button type="submit" class="btn bg-white text-dark">Read Post</button>
+                            <div class="d-flex justify-content-center">
+                                <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
+                                <a href="javascript:;"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
+                                <a href="javascript:;"><i class="fab fa-twitter text-lg text-white me-4"></i></a>
+                                <a href="javascript:;"><i class="fab fa-google-plus text-lg text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="position-relative bg-gradient-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 border-end-lg">
+                        <div class="col-md-12 text-start mb-5 mt-5">
+                            <h3 class="text-gradient-dark z-index-1 position-relative">LAT<span class="text-decoration-underline">EST&nbsp;</span></h3>
+                        </div>
+                        <div class="col-lg-12 justify-content-center mt-2">
+                            <div class="card card-profile p-2 justify-content-center bg-gradient-secondary">
+                                <div class="row col-12 pt-2">
+                                    <div class="col-4">
+                                        <img class="w-100 border-radius-md shadow-lg" src="../assets/img/team-5.jpg" alt="image">
+                                    </div>
+                                    <div class="col-8 ps-0">
+                                        <p class="text-start text-bold text-white">Pi to become No. 1 leading payment Available</p>
+                                        <a href="#" class="btn btn-sm btn-danger float-end"><i class="ni ni-button-play"></i></a> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 justify-content-center mt-2">
+                            <div class="card card-profile p-2 justify-content-center bg-gradient-dark">
+                                <div class="row col-12 pt-2">
+                                    <div class="col-4">
+                                        <img class="w-100 border-radius-md shadow-lg" src="../assets/img/team-5.jpg" alt="image">
+                                    </div>
+                                    <div class="col-8 ps-0">
+                                        <p class="text-start text-bold text-white">Pi to become No. 1 leading payment Available</p>
+                                        <a href="#" class="btn btn-sm btn-danger float-end"><i class="ni ni-badge"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8  mb-5">
+                        <div class="col-md-8 text-start mb-5 mt-5">
+                            <h3 class="text-gradient-dark z-index-1 position-relative">TO<span class="text-decoration-underline">P STORIES &nbsp;</span></h3>
+                            <p class="text-dark opacity-8 mb-0">Here's our all time top liked story</p>
+                        </div>
+                        <div class="card-flex">
+                            <div class="col-lg-6">
+                                <div class="card card-profile mt-4 m-1">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-6 col-12 my-auto p-4">
+                                            <div clas="row">
+                                                <div class="col-lg-12">
+                                                    <img class="w-100 border-radius-md shadow-lg" src="../assets/img/team-5.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="card-body ps-lg-0 pb-3">
+                                                <h6 class="mb-0 text-start">Pi to become No. 1 leading payment Available</h6>
+                                                <p class="mb-0">Artist is a term applied to a person who engages in an activity deemed to be an art.</p>
+                                                <hr>
+                                                <p class="mb-0 text-sm mt-1 text-bold col-lg-12">
+                                                    <i class="ni ni-single-02"></i> Collins Oden &nbsp;
+                                                    <i class="ni ni-time-alarm"></i> 12/01/2023 &nbsp;
+                                                    <i class="ni ni-money-coins"> 1.44</i> &nbsp;
+                                                    <i class="ni ni-like-2"> 26</i>
+                                                </p>
+                                                <a href="./view.html?id=1" class="btn btn-sm btn-dark float-end mt-3">Read Post</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card card-profile mt-4 m-1">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-6 col-12 my-auto p-4">
+                                            <div clas="row">
+                                                <div class="col-lg-12">
+                                                    <img class="w-100 border-radius-md shadow-lg" src="../assets/img/team-5.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="card-body ps-lg-0 pb-3">
+                                                <h6 class="mb-0 text-start">Pi to become No. 1 leading payment Available</h6>
+                                                <p class="mb-0">Artist is a term applied to a person who engages in an activity deemed to be an art.</p>
+                                                <hr>
+                                                <p class="mb-0 text-sm mt-1 text-bold col-lg-12">
+                                                    <i class="ni ni-single-02"></i> Collins Oden &nbsp;
+                                                    <i class="ni ni-time-alarm"></i> 12/01/2023 &nbsp;
+                                                    <i class="ni ni-money-coins"> 1.44</i> &nbsp;
+                                                    <i class="ni ni-like-2"> 26</i>
+                                                </p>
+                                                <a href="./view.html?id=1" class="btn btn-sm btn-dark float-end mt-3">Read Post</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card card-profile mt-4 m-1">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-6 col-12 my-auto p-4">
+                                            <div clas="row">
+                                                <div class="col-lg-12">
+                                                    <img class="w-100 border-radius-md shadow-lg" src="../assets/img/team-5.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="card-body ps-lg-0 pb-3">
+                                                <h6 class="mb-0 text-start">Pi to become No. 1 leading payment Available</h6>
+                                                <p class="mb-0">Artist is a term applied to a person who engages in an activity deemed to be an art.</p>
+                                                <hr>
+                                                <p class="mb-0 text-sm mt-1 text-bold col-lg-12">
+                                                    <i class="ni ni-single-02"></i> Collins Oden &nbsp;
+                                                    <i class="ni ni-time-alarm"></i> 12/01/2023 &nbsp;
+                                                    <i class="ni ni-money-coins"> 1.44</i> &nbsp;
+                                                    <i class="ni ni-like-2"> 26</i>
+                                                </p>
+                                                <a href="./view.html?id=1" class="btn btn-sm btn-dark float-end mt-3">Read Post</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer py-5 bg-gradient-light">
+            <div class="container z-index-1 position-relative">
+                <div class="row text-center">
+                    <h6 class="text-dark font-weight-bolder text-uppercase mb-lg-4 mb-3">Pi Blog</h6>
+                    <ul class="nav flex-row justify-content-lg-center justify-content-center mb-4 mt-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark opacity-8" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark opacity-8" href="#">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark opacity-8" href="#">Wallet Activity</a>
+                        </li>
+                    </ul>
+                    <p class="mb-2 text-lg text-dark font-weight-bold">
+                        Write quality contents and get paid for user engagement...
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+        <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+        <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+        <script src="./assets/js/plugins/countup.min.js"></script>
+        <script src="./assets/js/plugins/choices.min.js"></script>
+        <script src="./assets/js/plugins/prism.min.js"></script>
+        <script src="./assets/js/plugins/highlight.min.js"></script>
+        <script src="./assets/js/plugins/rellax.min.js"></script>
+        <script src="./assets/js/plugins/tilt.min.js"></script>
+        <script src="./assets/js/plugins/choices.min.js"></script>
+        <script src="./assets/js/plugins/parallax.min.js"></script>
+        <script src="./assets/js/material-kit.min.js?v=3.0.4" type="text/javascript"></script>
+    </body>
+
+</html>
